@@ -14,7 +14,7 @@
     <li ng-show-auth="['logout','error']"><a href="#/login">login</a></li>
     <li ng-show-auth="'login'"><a href="#/account">account</a></li>
 </ul>
-<nav class="navbar navbar-default navbar-fixed-top sticky" role="navigation" ng-controller="LoginCtrl" ng-hide="ignoreHead">
+<nav class="navbar navbar-inverse navbar-fixed-top sticky" role="navigation" ng-controller="LoginCtrl" ng-hide="ignoreHead">
     <div class="container nav">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle navbar-inverse" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -27,8 +27,8 @@
         </div>
         <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
             <ul class="nav navbar-nav" >
-                <li><a href="#/catalog">Services</a></li>
-                <li ng-show-auth="login"><a href="#/registries">Causes</a></li>
+                <!--<li><a href="#/catalog">Services</a></li>
+                <li ng-show-auth="login"><a href="#/registries">Causes</a></li>-->
                 <!--Signup part of login page <li ng-show-auth="logout,error" ng-click="createMode = true" ng-hide="createMode"><a href="#/login">Sign Up</a></li>         <li ng-show-auth="login"><a href="#/account">Account</a></li>
                 <li ng-show-auth="login"><a href="" ng-click="logout()">Logout</a></li>-->
 
@@ -66,7 +66,7 @@
             </ul>
         </div>
     </div>
-    <div ng-hide="ignoreHead" class="row" style="background-color: #18bc9c; height: 5px;"></div>
+    <div ng-hide="ignoreHead" class="row" style="background-color: #2c3e50; height: 5px;"></div>
 </nav>
 <div ng-view></div>
 
